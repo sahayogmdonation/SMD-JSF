@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    
+    <h:body>
+        <ui:composition>
+            <!-- ======= Top Bar ======= -->
+  <div id="topbar" class="d-flex align-items-center fixed-top">
+    <div class="container d-flex justify-content-between">
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-envelope"></i> <a href="mailto:contact@example.com">contact@example.com</a>
+        <i class="bi bi-phone"></i> +1 5589 55488 55
+      </div>
+      <div class="d-none d-lg-flex social-links align-items-center">
+        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+  </div>
+
+ <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+      <div class="container d-flex align-items-center">
+       <a href="index.jsp"><img src="Admin/assets/img/logo.png" alt="" style="height:50px;width:auto" />
+        </a>
+          <div style="width:100px"></div>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+        <nav id="navbar" class="navbar order-last order-lg-0">
+          <ul>
+            <li><a class="nav-link scrollto active" href="index.xhtml">Home</a></li>  <li></li>
+            <li><a class="nav-link scrollto" href="#Medicines">Medicines</a></li>  <li></li>
+            <li><a class="nav-link scrollto" href="#ngo">NGO</a></li>  <li></li>
+            <li><a class="nav-link scrollto" href="#contact">Contact  </a></li> <li></li>
+            <li><a class="nav-link scrollto" href="Donatehistory.jsp">Donate History</a></li>  <li></li>   
+
+          </ul>
+
+       
+          <ul>
+            <li class="nav-item dropdown pe-3">
+
+              <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+                <img src="assets/img/profile-img.jpg" style="width:auto; height:30px;" alt="Profile"
+                     class="rounded-circle" />
+                <span class="d-none d-md-block dropdown-toggle ps-2">Admin</span>
+              </a><!-- End Profile Iamge Icon -->
+
+              <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+                <li class="dropdown-header">
+                  <h6>Admin</h6>
+                  <span>Web Designer</span>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+
+                <li>
+                  <a class="dropdown-item d-flex align-items-center" href="profile.xhtml">
+                    <i class="bi bi-person"></i>
+                    <span>My Profile</span>
+                  </a>
+                </li>
+
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+
+                <li>
+                  <a class="dropdown-item d-flex align-items-center" href="/Profile.xhtml">
+                    <i class="bi bi-question-circle"></i>
+                    <span>Change Password</span>
+                  </a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+
+                <li>
+                  <a class="dropdown-item d-flex align-items-center" href="/Logout.java">
+                    <i class="bi bi-box-arrow-right"></i>
+                    <span>Log Out</span>
+                  </a>
+                </li>
+
+              </ul><!-- End Profile Dropdown Items -->
+            </li><!-- End Profile Nav -->
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+
+
+        <a href="/Logout.java" class="appointment-btn scrollto"><span class="d-none d-md-inline">Donate</span></a>
+        <a href="/Logout.java" class="appointment-btn scrollto"><span class="d-none d-md-inline">Logout</span></a>
+       
+
+
+      </div>
+    </header><!-- End Header -->
+        </ui:composition>
+    </h:body>
+</html>
+
